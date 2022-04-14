@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Definitely Not Flappy Bird</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1 class="title">
+      <h3 class="top" id="title-1">Definitely not...</h3>
+      <h1 class="bottom" id="title-2">Flappy Bird</h1>
+    </h1>
+    <div class="game-area">
+      <div class="make-it-pretty-1"></div>
+      <div class="make-it-pretty-2"></div>
+      <div class="live-score">0</div>
+      <div class="sky">
+        <div class="bird"></div>
+      </div>
+      <div class="ground"></div>
+      <div class="start-menu">
+        <p class="game-start">Press ENTER to Start</p>
+        <p class="how-to-play">
+          Use SPACEBAR to control the bird. Avoid the obstacles and ground to
+          stay alive.
+        </p>
+      </div>
+      <div class="game-over-menu">
+        <p class="game-over-text">GAME OVER</p>
+        <div class="current-score">
+          <p class="score-text">Your Score:</p>
+          <div class="score-number"></div>
+          <input type="text" placeholder="NAME" class="player-name" />
+          <button class="submit-button">ENTER</button>
+          <button class="play-again">PLAY AGAIN</button>
+        </div>
+        <div class="highscore-list">
+          <ol class="top3">
+            <li class="one"></li>
+            <li class="two"></li>
+            <li class="three"></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
