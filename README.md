@@ -18,9 +18,9 @@ The game is made from a combination of HTML, CSS and JavaScript. The main functi
 
 The game is designed to focus on the pixels within the game area and if the pixels of the bird are within the pixels of the barriers or ground the game is over. Similarly the barriers move based on calling a function removing a # of pixels from their left every certain number of seconds.
 
-Link to game!!!!
+[Link to game!!!!](https://thomaslawlor17.github.io/Flappy-Bird-2/)
 
-###Next Steps
+### Next Steps
 
 - build touchscreen compatibility
 - make it prettier (better pipes)
